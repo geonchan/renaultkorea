@@ -665,8 +665,3 @@ footer .txt2 li:nth-child(3){
 footer .txt4{
   line-height: 30px;
 }
-@media screen and (max-width:1920px) {
-  #scrollBtn{
-    display: none;
-  }
-}
