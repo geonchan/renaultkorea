@@ -1,4 +1,11 @@
 $(function(){
+  $("header .menu > li").mouseover(function(){
+    $("header .sub").stop().slideDown(400);
+  });
+  $("header .menu > li").mouseout(function(){
+    $("header .sub").stop().slideUp(400);
+  });
+
   //주메뉴 클릭시 자동으로 상하 스크롤 설정
   var count = 0;//페이지 순번
 

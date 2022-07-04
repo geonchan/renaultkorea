@@ -22,7 +22,7 @@ header{
   width:100%;
   min-width:1600px;
   height:80px;
-  background-color:rgba(255,255,255,0.3);
+  background-color:#333;
   position: fixed;
   z-index: 998;
 }
@@ -47,15 +47,38 @@ header h1 a{
 }
 header ul{
   display: flex;
-  font-size:30px;
-  color:#e7da0e;
+  font-size:26px;
+  color:#fff;
   font-weight: bold;
+  text-indent: 10px;
+}
+header .on {
+  border-bottom: 2px solid #e7da0e;
+}
+header ul a:hover{
+  border-bottom: 2px solid #e7da0e;
+  color:#e7da0e;
+}
+header .menu{
+  width:800px;
 }
 header .menu > li {
-  padding-right:120px;
+  width:100%;
 }
-header .menu li:nth-child(4){
+header .menu > li:nth-child(4){
   padding-right:0px;
+}
+header .sub{
+  flex-wrap:wrap;
+  width:100%;
+  background-color:#333;
+  display: none;
+  font-weight:normal;
+  font-size:22px;
+}
+header .sub > li{
+  width:100%;
+  height:80px;
 }
 header .mymenu{
   position: absolute;
