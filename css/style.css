@@ -603,7 +603,7 @@ border-radius: 25px;
 }
 #Design .imgGroup{
   position: absolute;
-  padding-top: 80px;
+  padding-top: 40px;
 }
 #Design .imgGroup > li{
   width:222px;
@@ -622,7 +622,7 @@ border-radius: 25px;
 }
 #Design .video {
   position: absolute;
-  top: 180px;
+  top: 140px;
   right: 0;
   width: 1280px;
   height: 720px;
