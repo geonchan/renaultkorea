@@ -641,7 +641,7 @@ border-radius: 25px;
 #footer{
   width:100%;
   height:100vh;
-  padding-top: 450px;
+  padding-top: 620px;
   box-sizing: border-box;
   background: url(../images/footer.jpg) center no-repeat;
   background-size: contain;
@@ -651,6 +651,7 @@ footer{
   width:1520px;
   height:100%;
   margin: auto;
+  font-size:14px;
 }
 footer > ul{
   text-align: center;
@@ -663,21 +664,20 @@ footer .txt1{
   margin: auto;
   display: flex;
   justify-content: center;
-  padding:80px 0px 40px;
-  margin-top: 160px;
 }
 footer .sns{
   width:420px;
   margin: auto;
   display: flex;
   justify-content: center;
-  padding-bottom: 30px;
+  padding:30px 0px;
 }
 footer .txt2{
   width:1420px;
   margin: auto;
   padding-bottom:30px;
   line-height: 30px;
+  font-size:12px;
 }
 footer .txt2 li:nth-child(2){
   letter-spacing: 1px;
@@ -686,5 +686,6 @@ footer .txt2 li:nth-child(3){
   padding-top: 30px;
 }
 footer .txt4{
-  line-height: 30px;
+  line-height: 20px;
+  font-size:12px;
 }
